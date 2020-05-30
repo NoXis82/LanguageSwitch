@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LanguageSwitch</string>
+    <string name="text_1">Change language</string>
+    <string name="button">Apply</string>
+    <string name="text_view">Three paths lead to knowledge: the path of reflection is the noblest,
+        the path of imitation is the easiest and the path of experience is the bitterest.</string>
+    <string-array name="language">
+        <item>Russian</item>
+        <item>English</item>
+        <item>German</item>
+    </string-array>
+
+</resources>
