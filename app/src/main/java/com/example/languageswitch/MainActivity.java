@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         Button button = findViewById(R.id.button);
         final Spinner spinner = findViewById(R.id.spinner_language);
         button.setOnClickListener(new View.OnClickListener() {
-            
+
             @Override
             public void onClick(View v) {
                 switch (spinner.getSelectedItemPosition()) {
@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 2:
                         changeLocale("de");
+                        break;
                 }
             }
         });
